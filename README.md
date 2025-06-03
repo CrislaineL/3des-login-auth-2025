@@ -105,3 +105,12 @@ jsonwebtoken.verify(token, secret) → para verificar um token.
 ## posts.js ⤵
 - O posts.js define uma rota que responde a requisições GET no  /posts, utilizando um middleware de validação para autenticar o usuário antes de chamar a função do controlador de posts.
  -Importancia:É importante porque assegura que apenas usuários autenticados possam acessar informações sensíveis, como posts, promovendo a segurança e a privacidade dos dados no sistema .
+
+   
+# Imagem Diagrama de Atividades
+![Diagrama de Atividades](img1.png)
+
+# Testes no Insomnia
+![teste1](Captura%20de%20tela%202025-04-29%20161444.png)
+![teste2](Captura%20de%20tela%202025-04-29%20161559.png)
+
