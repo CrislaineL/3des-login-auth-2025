@@ -1,0 +1,162 @@
+/* Import Google Font - Poppins for a modern look */
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  
+  --c1: #ff5f7e;
+  --c2: #ffb3c1;
+  --c3: #333;
+  --c4: #ff5f7e;
+  --c5: #ff0055;
+  --c6: #ffb3c1;
+  --t1: 8px;
+  --t2: 0.3s;
+}
+
+
+body {
+  background-image: url(' https://cdn.pixabay.com/photo/2021/06/26/17/01/strawberries-6366696_1280.png');
+  font-family: 'Caveat', cursive;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+   
+}
+
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+button {
+    background-color: #ff4d88;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+    box-shadow: 2px 2px 5px #ccc;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6005c;
+}
+
+#posts-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: #fff0f5;
+    border: 2px solid #ff99cc;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 8px #e0b0c7;
+    transition: transform 0.2s;
+}
+
+.post:hover {
+    transform: scale(1.02);
+}
+
+.post h2 {
+    color: #cc3366;
+    margin-top: 0;
+}
+
+
+.post p {
+    color: #660033;
+}
+/* Info do usuário no topo do post */
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #ff99cc;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #cc3366;
+}
+/* Cabeçalho principal */
+#user-header {
+    width: 98.9%;
+    background-color: #ffe6f0;
+    border-bottom: 2px solid #ff99cc;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+/* Área do avatar e nome */
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+/* Avatar */
+.header-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ff66a3;
+    margin-right: 15px;
+    box-shadow: 2px 2px 6px #ffcce0;
+}
+
+/* Nome do usuário */
+.header-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #cc3366;
+    text-shadow: 1px 1px 1px #ffe6f0;
+}
+
+/* Botão de logout */
+.logout-btn {
+    background-color: #ff4d88;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #e6005c;
+}
